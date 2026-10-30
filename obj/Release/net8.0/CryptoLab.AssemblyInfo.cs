@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CryptoLab")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90a29481554eff1af2e719b8925ac32d033da97b")]
 [assembly: System.Reflection.AssemblyProductAttribute("CryptoLab")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CryptoLab")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
