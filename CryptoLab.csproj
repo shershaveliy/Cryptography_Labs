@@ -1,0 +1,14 @@
+<!-- Минимальный проект консольного приложения без внешних пакетов. -->
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType> <!-- Собираем исполняемую консольную программу. -->
+    <TargetFramework>net8.0</TargetFramework> <!-- Требуется .NET 8 SDK. -->
+    <ImplicitUsings>disable</ImplicitUsings> <!-- Все using видны в исходниках. -->
+    <Nullable>disable</Nullable> <!-- Не используем усложняющие синтаксис nullable-аннотации. -->
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Samples/**/*.cs" /> <!-- Пример исходника является данными, а не частью нашей сборки. -->
+    <None Include="Samples/**/*.cs" CopyToOutputDirectory="PreserveNewest" /> <!-- Копируем пример исходника как обычный файл. -->
+    <None Update="Samples/**/*" CopyToOutputDirectory="PreserveNewest" /> <!-- Копируем готовые файлы для демонстрации. -->
+  </ItemGroup>
+</Project>
